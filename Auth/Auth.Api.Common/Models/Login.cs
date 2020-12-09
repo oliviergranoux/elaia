@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Auth.Api.Common.Models
+namespace Elaia.Auth.Api.Common.Models
 {
     public class Login
     {

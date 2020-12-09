@@ -1,6 +1,6 @@
 using NUnit.Framework;
 
-namespace Auth.Data.Tests
+namespace Elaia.Auth.Data.Tests
 {
     public class Tests
     {

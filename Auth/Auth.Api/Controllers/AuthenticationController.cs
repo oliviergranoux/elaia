@@ -1,17 +1,17 @@
-using System;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using System;
 
-using Auth.Api.Common.Models;
-using Auth.Api.Services;
-using Auth.Business.Interfaces;
-using Auth.Api.Common.Services;
-using Auth.Api.Common.Interfaces;
+using Elaia.Auth.Api.Services;
+using Elaia.Auth.Api.Common.Models;
+using Elaia.Auth.Api.Common.Services;
+using Elaia.Auth.Api.Common.Interfaces;
+using Elaia.Auth.Business.Interfaces;
 
-namespace Auth.Api.Controllers
+namespace Elaia.Auth.Api.Controllers
 {
     [Authorize]
     [ApiController]

@@ -4,12 +4,13 @@ using Microsoft.Extensions.Options;
 using Moq;
 using NUnit.Framework;
 using System;
-using Auth.Api.Controllers;
-using Auth.Api.Services;
-using Auth.Business.Interfaces;
-using Auth.Api.Common.Interfaces;
 
-namespace Auth.Api.Tests
+using Elaia.Auth.Api.Controllers;
+using Elaia.Auth.Api.Services;
+using Elaia.Auth.Api.Common.Interfaces;
+using Elaia.Auth.Business.Interfaces;
+
+namespace Elaia.Auth.Api.Tests
 {
     public class Tests
     {

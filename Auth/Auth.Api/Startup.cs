@@ -17,13 +17,13 @@ using Microsoft.Extensions.Logging;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 
-using Auth.Api.Services;
-using Auth.Business.Interfaces;
-using Auth.Business.Managers;
-using Auth.Api.Common.Services;
-using Auth.Api.Common.Interfaces;
+using Elaia.Auth.Api.Services;
+using Elaia.Auth.Api.Common.Services;
+using Elaia.Auth.Api.Common.Interfaces;
+using Elaia.Auth.Business.Interfaces;
+using Elaia.Auth.Business.Managers;
 
-namespace Auth.Api
+namespace Elaia.Auth.Api
 {
     public class Startup
     {

@@ -1,8 +1,9 @@
-﻿using System;
-using Auth.Data.Common.Models;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 
-namespace Auth.Data
+using Elaia.Auth.Data.Common.Models;
+
+namespace Elaia.Auth.Data
 {
     public class AuthContext : DbContext
     {

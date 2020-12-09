@@ -1,9 +1,7 @@
-
-
 using System.Linq;
-using Auth.Data.Common.Models;
+using Elaia.Auth.Data.Common.Models;
 
-namespace Auth.Data.repositories
+namespace Elaia.Auth.Data.repositories
 {
     public interface IUserRepository
     {

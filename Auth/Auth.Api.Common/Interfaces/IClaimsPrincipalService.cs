@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System.Security.Claims;
 
-namespace Auth.Api.Common.Interfaces
+namespace Elaia.Auth.Api.Common.Interfaces
 {
     public interface IClaimsPrincipalService
     {

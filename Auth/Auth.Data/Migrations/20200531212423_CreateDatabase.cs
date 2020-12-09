@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace Auth.Data.Migrations
+namespace Elaia.Auth.Data.Migrations
 {
     public partial class CreateDatabase : Migration
     {

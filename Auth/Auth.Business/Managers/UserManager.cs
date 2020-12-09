@@ -1,10 +1,10 @@
 using Microsoft.Extensions.Logging;
 using System;
-using Auth.Business.Common.Models;
-using Auth.Business.Interfaces;
-// using Auth.Api.Common.Interfaces;
+using Elaia.Auth.Business.Common.Models;
+using Elaia.Auth.Business.Interfaces;
+// using Elaia.Auth.Api.Common.Interfaces;
 
-namespace Auth.Business.Managers
+namespace Elaia.Auth.Business.Managers
 {
     public class UserManager : IUserManager
     {

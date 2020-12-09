@@ -1,13 +1,13 @@
+using Microsoft.AspNetCore.Http;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Security.Claims;
-using Auth.Api.Common.Interfaces;
-using Microsoft.AspNetCore.Http;
 
-namespace Auth.Api.Common.Services
+using Elaia.Auth.Api.Common.Interfaces;
+
+namespace Elaia.Auth.Api.Common.Services
 {
-
     public class ClaimsPrincipalService : IClaimsPrincipalService
     {
         private readonly ClaimsPrincipal _user;

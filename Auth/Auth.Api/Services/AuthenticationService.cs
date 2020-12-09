@@ -1,16 +1,16 @@
+using Microsoft.Extensions.Options;
+using Microsoft.IdentityModel.Tokens;
 using System;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
-using Microsoft.Extensions.Options;
-using Microsoft.IdentityModel.Tokens;
 
-namespace Auth.Api.Services
+namespace Elaia.Auth.Api.Services
 {
 
     public interface IAuthenticationService
     {
-       string Authenticate(Business.Common.Models.User user);
+       string Authenticate(Elaia.Auth.Business.Common.Models.User user);
     }
     
     public class AuthenticationService : IAuthenticationService
@@ -22,7 +22,7 @@ namespace Auth.Api.Services
             _settings = settings;
         }
 
-        public string Authenticate(Business.Common.Models.User user)
+        public string Authenticate(Elaia.Auth.Business.Common.Models.User user)
         {
             if (user == null)
                 throw new ArgumentNullException(nameof(user));
@@ -32,7 +32,7 @@ namespace Auth.Api.Services
             return tokenHandler.WriteToken(token);
         }
         
-        private SecurityToken Authenticate(Business.Common.Models.User user, JwtSecurityTokenHandler tokenHandler)
+        private SecurityToken Authenticate(Elaia.Auth.Business.Common.Models.User user, JwtSecurityTokenHandler tokenHandler)
         {
             var key = Encoding.ASCII.GetBytes(_settings.Value.JwtSecret);
 

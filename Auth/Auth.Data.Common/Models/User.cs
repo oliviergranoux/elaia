@@ -1,4 +1,4 @@
-namespace Auth.Data.Common.Models
+namespace Elaia.Auth.Data.Common.Models
 {
     public class User
     {

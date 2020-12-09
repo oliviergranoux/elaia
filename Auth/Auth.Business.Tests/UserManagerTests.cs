@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Auth.Business.Tests
+namespace Elaia.Auth.Business.Tests
 {
     public class UserManagerTests
     {

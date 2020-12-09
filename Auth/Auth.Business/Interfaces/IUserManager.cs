@@ -1,9 +1,9 @@
-using Auth.Business.Common.Models;
+using Elaia.Auth.Business.Common.Models;
 
-namespace Auth.Business.Interfaces
+namespace Elaia.Auth.Business.Interfaces
 {
     public interface IUserManager
     {
-        User GetUser(Auth.Api.Common.Models.Login login);
+        User GetUser(Elaia.Auth.Api.Common.Models.Login login);
     }
 }

@@ -1,4 +1,4 @@
-namespace Auth.Api
+namespace Elaia.Auth.Api
 {
     public class AppSettings
     {
