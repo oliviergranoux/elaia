@@ -3,6 +3,12 @@
   <ItemGroup>
     <ProjectReference Include="..\Auth.Api.Common\Auth.Api.Common.csproj" />
     <ProjectReference Include="..\Auth.Business.Common\Auth.Business.Common.csproj" />
+    <ProjectReference Include="..\Auth.Data\Auth.Data.csproj" />
+    <ProjectReference Include="..\Auth.Data.Common\Auth.Data.Common.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="5.0.0" />
   </ItemGroup>
 
   <PropertyGroup>

@@ -7,14 +7,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Moq" Version="4.15.2" />
     <PackageReference Include="NUnit" Version="3.12.0" />
     <PackageReference Include="NUnit3TestAdapter" Version="3.16.1" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.5.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Auth.Api.Common\Auth.Api.Common.csproj" />
     <ProjectReference Include="..\Auth.Api\Auth.Api.csproj" />
+    <ProjectReference Include="..\Auth.Api.Common\Auth.Api.Common.csproj" />
+    <ProjectReference Include="..\Auth.Business\Auth.Business.csproj" />
+    <ProjectReference Include="..\Auth.Business.Common\Auth.Business.Common.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,6 +1,6 @@
 using NUnit.Framework;
 
-namespace Auth.Business.Tests
+namespace Auth.Data.Tests
 {
     public class Tests
     {
